@@ -1,0 +1,75 @@
+{
+    "name": "SmartCalculator",
+    "description": "A calculator app with MVVM architecture and SOLID design principles.",
+    "architecture": "MVVM",
+    "principles": ["SOLID"],
+    "folders": [
+      {
+        "name": "core",
+        "description": "Core business logic and utility functions",
+        "contains": [
+          "UseCase for arithmetic operations",
+          "Interfaces for abstraction",
+          "Constants & Enums"
+        ]
+      },
+      {
+        "name": "data",
+        "description": "Handles storage, history, and any persistent data",
+        "contains": [
+          "HistoryRepository",
+          "LocalDataSource"
+        ]
+      },
+      {
+        "name": "model",
+        "description": "Data classes representing state and values",
+        "contains": [
+          "CalculatorInputModel",
+          "HistoryItemModel"
+        ]
+      },
+      {
+        "name": "viewmodel",
+        "description": "Handles logic and exposes LiveData/StateFlow to the UI",
+        "contains": [
+          "CalculatorViewModel"
+        ]
+      },
+      {
+        "name": "view",
+        "description": "UI components and views",
+        "contains": [
+          "MainActivity / CalculatorScreen",
+          "CustomButton",
+          "HistoryDialog"
+        ]
+      }
+    ],
+    "core_functions": [
+      "add(a, b): Double",
+      "subtract(a, b): Double",
+      "multiply(a, b): Double",
+      "divide(a, b): Double",
+      "percentage(base, percent): Double",
+      "saveHistory(expression, result)",
+      "getHistory(): List<HistoryItemModel>"
+    ],
+    "solid": {
+      "S": "Each class should have only one responsibility. ViewModel only handles UI logic. Repository only handles data.",
+      "O": "Add new operations (e.g., square root) without changing existing operation logic.",
+      "L": "Replace any arithmetic operation class without breaking the ViewModel.",
+      "I": "Split operation interfaces (IOperation, IHistoryManager) to avoid forcing unused methods.",
+      "D": "Use constructor injection for Repository and UseCases into ViewModel (Dependency Injection)."
+    },
+    "unit_testing": [
+      "Test each use case separately",
+      "Mock history repository for ViewModel tests"
+    ],
+    "notes": [
+      "Use sealed classes for UI state handling",
+      "Use StateFlow or LiveData for reactive UI updates",
+      "Separate expression parsing logic from ViewModel"
+    ]
+  }
+  
