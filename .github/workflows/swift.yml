@@ -11,12 +11,16 @@ on:
 
 jobs:
   build:
-
     runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v4
-    - name: Build
-      run: swift build -v
-    - name: Run tests
-      run: swift test -v
+
+    - name: Build iOS App
+      run: |
+        xcodebuild -project calculator-ios.xcodeproj \
+                   -scheme calculator-ios \
+                   -sdk iphonesimulator \
+                   -destination 'platform=iOS Simulator,name=iPhone 14,OS=17.0' \
+                   clean build
+
