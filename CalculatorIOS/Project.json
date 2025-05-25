@@ -1,12 +1,4 @@
-//
-//  Package.json
-//  calculator-ios
-//
-//  Created by Pushpendra on 25/05/25.
-//
-
-// swift-tools-version:5.7
-import PackageDescription
+#  Title
 
 let package = Package(
     name: "CalculatorIOS",

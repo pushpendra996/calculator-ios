@@ -1,8 +1,8 @@
 //
 //  CalculatorIOSUITestsLaunchTests.swift
-//  calculator-iosUITests
+//  CalculatorIOSUITests
 //
-//  Created by Pushpendra on 24/05/25.
+//  Created by Pushpendra on 26/05/25.
 //
 
 import XCTest

@@ -3,74 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 73;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		F4DCD3292DE202C900F830E4 /* PBXContainerItemProxy */ = {
+		F483E8BC2DE39A3400EAB8D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F4DCD3122DE202C800F830E4 /* Project object */;
+			containerPortal = F483E8A52DE39A3300EAB8D8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4DCD3192DE202C800F830E4;
-			remoteInfo = "calculator-ios";
+			remoteGlobalIDString = F483E8AC2DE39A3300EAB8D8;
+			remoteInfo = CalculatorIOS;
 		};
-		F4DCD3332DE202CA00F830E4 /* PBXContainerItemProxy */ = {
+		F483E8C62DE39A3400EAB8D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F4DCD3122DE202C800F830E4 /* Project object */;
+			containerPortal = F483E8A52DE39A3300EAB8D8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4DCD3192DE202C800F830E4;
-			remoteInfo = "calculator-ios";
+			remoteGlobalIDString = F483E8AC2DE39A3300EAB8D8;
+			remoteInfo = CalculatorIOS;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F4DCD31A2DE202C800F830E4 /* CalculatorIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4DCD3282DE202C900F830E4 /* CalculatorIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4DCD3322DE202CA00F830E4 /* CalculatorIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F483E8AD2DE39A3300EAB8D8 /* CalculatorIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F483E8BB2DE39A3400EAB8D8 /* CalculatorIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F483E8C52DE39A3400EAB8D8 /* CalculatorIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F4DCD3862DE3722300F830E4 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Package.swift,
-			);
-			target = F4DCD3192DE202C800F830E4 /* CalculatorIOS */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		F4DCD3872DE3722300F830E4 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = F4DCD3182DE202C800F830E4 /* Resources */;
-			membershipExceptions = (
-				Package.swift,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F4DCD31C2DE202C800F830E4 /* CalculatorIOS */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (F4DCD3862DE3722300F830E4 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, F4DCD3872DE3722300F830E4 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = CalculatorIOS; sourceTree = "<group>"; };
-		F4DCD32B2DE202C900F830E4 /* CalculatorIOSTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = CalculatorIOSTests; sourceTree = "<group>"; };
-		F4DCD3352DE202CA00F830E4 /* CalculatorIOSUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = CalculatorIOSUITests; sourceTree = "<group>"; };
+		F483E8AF2DE39A3300EAB8D8 /* CalculatorIOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CalculatorIOS;
+			sourceTree = "<group>";
+		};
+		F483E8BE2DE39A3400EAB8D8 /* CalculatorIOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CalculatorIOSTests;
+			sourceTree = "<group>";
+		};
+		F483E8C82DE39A3400EAB8D8 /* CalculatorIOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CalculatorIOSUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F4DCD3172DE202C800F830E4 /* Frameworks */ = {
+		F483E8AA2DE39A3300EAB8D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4DCD3252DE202C900F830E4 /* Frameworks */ = {
+		F483E8B82DE39A3400EAB8D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4DCD32F2DE202CA00F830E4 /* Frameworks */ = {
+		F483E8C22DE39A3400EAB8D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F4DCD3112DE202C800F830E4 = {
+		F483E8A42DE39A3300EAB8D8 = {
 			isa = PBXGroup;
 			children = (
-				F4DCD31C2DE202C800F830E4 /* CalculatorIOS */,
-				F4DCD32B2DE202C900F830E4 /* CalculatorIOSTests */,
-				F4DCD3352DE202CA00F830E4 /* CalculatorIOSUITests */,
-				F4DCD31B2DE202C800F830E4 /* Products */,
+				F483E8AF2DE39A3300EAB8D8 /* CalculatorIOS */,
+				F483E8BE2DE39A3400EAB8D8 /* CalculatorIOSTests */,
+				F483E8C82DE39A3400EAB8D8 /* CalculatorIOSUITests */,
+				F483E8AE2DE39A3300EAB8D8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F4DCD31B2DE202C800F830E4 /* Products */ = {
+		F483E8AE2DE39A3300EAB8D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4DCD31A2DE202C800F830E4 /* CalculatorIOS.app */,
-				F4DCD3282DE202C900F830E4 /* CalculatorIOSTests.xctest */,
-				F4DCD3322DE202CA00F830E4 /* CalculatorIOSUITests.xctest */,
+				F483E8AD2DE39A3300EAB8D8 /* CalculatorIOS.app */,
+				F483E8BB2DE39A3400EAB8D8 /* CalculatorIOSTests.xctest */,
+				F483E8C52DE39A3400EAB8D8 /* CalculatorIOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,133 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4DCD3192DE202C800F830E4 /* CalculatorIOS */ = {
+		F483E8AC2DE39A3300EAB8D8 /* CalculatorIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4DCD33C2DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "CalculatorIOS" */;
+			buildConfigurationList = F483E8CF2DE39A3400EAB8D8 /* Build configuration list for PBXNativeTarget "CalculatorIOS" */;
 			buildPhases = (
-				F4DCD3162DE202C800F830E4 /* Sources */,
-				F4DCD3172DE202C800F830E4 /* Frameworks */,
-				F4DCD3182DE202C800F830E4 /* Resources */,
+				F483E8A92DE39A3300EAB8D8 /* Sources */,
+				F483E8AA2DE39A3300EAB8D8 /* Frameworks */,
+				F483E8AB2DE39A3300EAB8D8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F4DCD31C2DE202C800F830E4 /* CalculatorIOS */,
+				F483E8AF2DE39A3300EAB8D8 /* CalculatorIOS */,
 			);
 			name = CalculatorIOS;
 			packageProductDependencies = (
 			);
-			productName = "calculator-ios";
-			productReference = F4DCD31A2DE202C800F830E4 /* CalculatorIOS.app */;
+			productName = CalculatorIOS;
+			productReference = F483E8AD2DE39A3300EAB8D8 /* CalculatorIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F4DCD3272DE202C900F830E4 /* CalculatorIOSTests */ = {
+		F483E8BA2DE39A3400EAB8D8 /* CalculatorIOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4DCD33F2DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "CalculatorIOSTests" */;
+			buildConfigurationList = F483E8D22DE39A3400EAB8D8 /* Build configuration list for PBXNativeTarget "CalculatorIOSTests" */;
 			buildPhases = (
-				F4DCD3242DE202C900F830E4 /* Sources */,
-				F4DCD3252DE202C900F830E4 /* Frameworks */,
-				F4DCD3262DE202C900F830E4 /* Resources */,
+				F483E8B72DE39A3400EAB8D8 /* Sources */,
+				F483E8B82DE39A3400EAB8D8 /* Frameworks */,
+				F483E8B92DE39A3400EAB8D8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F4DCD32A2DE202C900F830E4 /* PBXTargetDependency */,
+				F483E8BD2DE39A3400EAB8D8 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				F4DCD32B2DE202C900F830E4 /* CalculatorIOSTests */,
+				F483E8BE2DE39A3400EAB8D8 /* CalculatorIOSTests */,
 			);
 			name = CalculatorIOSTests;
 			packageProductDependencies = (
 			);
-			productName = "calculator-iosTests";
-			productReference = F4DCD3282DE202C900F830E4 /* CalculatorIOSTests.xctest */;
+			productName = CalculatorIOSTests;
+			productReference = F483E8BB2DE39A3400EAB8D8 /* CalculatorIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F4DCD3312DE202CA00F830E4 /* CalculatorIOSUITests */ = {
+		F483E8C42DE39A3400EAB8D8 /* CalculatorIOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4DCD3422DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "CalculatorIOSUITests" */;
+			buildConfigurationList = F483E8D52DE39A3400EAB8D8 /* Build configuration list for PBXNativeTarget "CalculatorIOSUITests" */;
 			buildPhases = (
-				F4DCD32E2DE202CA00F830E4 /* Sources */,
-				F4DCD32F2DE202CA00F830E4 /* Frameworks */,
-				F4DCD3302DE202CA00F830E4 /* Resources */,
+				F483E8C12DE39A3400EAB8D8 /* Sources */,
+				F483E8C22DE39A3400EAB8D8 /* Frameworks */,
+				F483E8C32DE39A3400EAB8D8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F4DCD3342DE202CA00F830E4 /* PBXTargetDependency */,
+				F483E8C72DE39A3400EAB8D8 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				F4DCD3352DE202CA00F830E4 /* CalculatorIOSUITests */,
+				F483E8C82DE39A3400EAB8D8 /* CalculatorIOSUITests */,
 			);
 			name = CalculatorIOSUITests;
 			packageProductDependencies = (
 			);
-			productName = "calculator-iosUITests";
-			productReference = F4DCD3322DE202CA00F830E4 /* CalculatorIOSUITests.xctest */;
+			productName = CalculatorIOSUITests;
+			productReference = F483E8C52DE39A3400EAB8D8 /* CalculatorIOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F4DCD3122DE202C800F830E4 /* Project object */ = {
+		F483E8A52DE39A3300EAB8D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					F4DCD3192DE202C800F830E4 = {
+					F483E8AC2DE39A3300EAB8D8 = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					F4DCD3272DE202C900F830E4 = {
+					F483E8BA2DE39A3400EAB8D8 = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = F4DCD3192DE202C800F830E4;
+						TestTargetID = F483E8AC2DE39A3300EAB8D8;
 					};
-					F4DCD3312DE202CA00F830E4 = {
+					F483E8C42DE39A3400EAB8D8 = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = F4DCD3192DE202C800F830E4;
+						TestTargetID = F483E8AC2DE39A3300EAB8D8;
 					};
 				};
 			};
-			buildConfigurationList = F4DCD3152DE202C800F830E4 /* Build configuration list for PBXProject "CalculatorIOS" */;
+			buildConfigurationList = F483E8A82DE39A3300EAB8D8 /* Build configuration list for PBXProject "CalculatorIOS" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = F4DCD3112DE202C800F830E4;
+			mainGroup = F483E8A42DE39A3300EAB8D8;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 55;
-			productRefGroup = F4DCD31B2DE202C800F830E4 /* Products */;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F483E8AE2DE39A3300EAB8D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4DCD3192DE202C800F830E4 /* CalculatorIOS */,
-				F4DCD3272DE202C900F830E4 /* CalculatorIOSTests */,
-				F4DCD3312DE202CA00F830E4 /* CalculatorIOSUITests */,
+				F483E8AC2DE39A3300EAB8D8 /* CalculatorIOS */,
+				F483E8BA2DE39A3400EAB8D8 /* CalculatorIOSTests */,
+				F483E8C42DE39A3400EAB8D8 /* CalculatorIOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F4DCD3182DE202C800F830E4 /* Resources */ = {
+		F483E8AB2DE39A3300EAB8D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4DCD3262DE202C900F830E4 /* Resources */ = {
+		F483E8B92DE39A3400EAB8D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4DCD3302DE202CA00F830E4 /* Resources */ = {
+		F483E8C32DE39A3400EAB8D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F4DCD3162DE202C800F830E4 /* Sources */ = {
+		F483E8A92DE39A3300EAB8D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4DCD3242DE202C900F830E4 /* Sources */ = {
+		F483E8B72DE39A3400EAB8D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4DCD32E2DE202CA00F830E4 /* Sources */ = {
+		F483E8C12DE39A3400EAB8D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F4DCD32A2DE202C900F830E4 /* PBXTargetDependency */ = {
+		F483E8BD2DE39A3400EAB8D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F4DCD3192DE202C800F830E4 /* CalculatorIOS */;
-			targetProxy = F4DCD3292DE202C900F830E4 /* PBXContainerItemProxy */;
+			target = F483E8AC2DE39A3300EAB8D8 /* CalculatorIOS */;
+			targetProxy = F483E8BC2DE39A3400EAB8D8 /* PBXContainerItemProxy */;
 		};
-		F4DCD3342DE202CA00F830E4 /* PBXTargetDependency */ = {
+		F483E8C72DE39A3400EAB8D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F4DCD3192DE202C800F830E4 /* CalculatorIOS */;
-			targetProxy = F4DCD3332DE202CA00F830E4 /* PBXContainerItemProxy */;
+			target = F483E8AC2DE39A3300EAB8D8 /* CalculatorIOS */;
+			targetProxy = F483E8C62DE39A3400EAB8D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F4DCD33A2DE202CA00F830E4 /* Debug */ = {
+		F483E8CD2DE39A3400EAB8D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -337,7 +330,7 @@
 			};
 			name = Debug;
 		};
-		F4DCD33B2DE202CA00F830E4 /* Release */ = {
+		F483E8CE2DE39A3400EAB8D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,7 +383,7 @@
 			};
 			name = Release;
 		};
-		F4DCD33D2DE202CA00F830E4 /* Debug */ = {
+		F483E8D02DE39A3400EAB8D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -411,7 +404,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
@@ -428,7 +421,7 @@
 			};
 			name = Debug;
 		};
-		F4DCD33E2DE202CA00F830E4 /* Release */ = {
+		F483E8D12DE39A3400EAB8D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -449,7 +442,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
@@ -466,12 +459,13 @@
 			};
 			name = Release;
 		};
-		F4DCD3402DE202CA00F830E4 /* Debug */ = {
+		F483E8D32DE39A3400EAB8D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U935ZV875J;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
@@ -488,12 +482,13 @@
 			};
 			name = Debug;
 		};
-		F4DCD3412DE202CA00F830E4 /* Release */ = {
+		F483E8D42DE39A3400EAB8D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U935ZV875J;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
@@ -510,11 +505,12 @@
 			};
 			name = Release;
 		};
-		F4DCD3432DE202CA00F830E4 /* Debug */ = {
+		F483E8D62DE39A3400EAB8D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U935ZV875J;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
@@ -526,16 +522,17 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = "calculator-ios";
+				TEST_TARGET_NAME = CalculatorIOS;
 				XROS_DEPLOYMENT_TARGET = 2.4;
 			};
 			name = Debug;
 		};
-		F4DCD3442DE202CA00F830E4 /* Release */ = {
+		F483E8D72DE39A3400EAB8D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U935ZV875J;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
@@ -547,7 +544,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = "calculator-ios";
+				TEST_TARGET_NAME = CalculatorIOS;
 				XROS_DEPLOYMENT_TARGET = 2.4;
 			};
 			name = Release;
@@ -555,43 +552,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4DCD3152DE202C800F830E4 /* Build configuration list for PBXProject "CalculatorIOS" */ = {
+		F483E8A82DE39A3300EAB8D8 /* Build configuration list for PBXProject "CalculatorIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4DCD33A2DE202CA00F830E4 /* Debug */,
-				F4DCD33B2DE202CA00F830E4 /* Release */,
+				F483E8CD2DE39A3400EAB8D8 /* Debug */,
+				F483E8CE2DE39A3400EAB8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4DCD33C2DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "CalculatorIOS" */ = {
+		F483E8CF2DE39A3400EAB8D8 /* Build configuration list for PBXNativeTarget "CalculatorIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4DCD33D2DE202CA00F830E4 /* Debug */,
-				F4DCD33E2DE202CA00F830E4 /* Release */,
+				F483E8D02DE39A3400EAB8D8 /* Debug */,
+				F483E8D12DE39A3400EAB8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4DCD33F2DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "CalculatorIOSTests" */ = {
+		F483E8D22DE39A3400EAB8D8 /* Build configuration list for PBXNativeTarget "CalculatorIOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4DCD3402DE202CA00F830E4 /* Debug */,
-				F4DCD3412DE202CA00F830E4 /* Release */,
+				F483E8D32DE39A3400EAB8D8 /* Debug */,
+				F483E8D42DE39A3400EAB8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4DCD3422DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "CalculatorIOSUITests" */ = {
+		F483E8D52DE39A3400EAB8D8 /* Build configuration list for PBXNativeTarget "CalculatorIOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4DCD3432DE202CA00F830E4 /* Debug */,
-				F4DCD3442DE202CA00F830E4 /* Release */,
+				F483E8D62DE39A3400EAB8D8 /* Debug */,
+				F483E8D72DE39A3400EAB8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F4DCD3122DE202C800F830E4 /* Project object */;
+	rootObject = F483E8A52DE39A3300EAB8D8 /* Project object */;
 }
