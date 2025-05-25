@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "pushpendra996/calculator-ios",
+  "pipelineDirectory": "calculator-ios",
+  "workspaceDirectory": "calculator-ios/calculator-ios",
+  "repositories": {
+    "pushpendra996/calculator-ios": {
+      "repositoryPath": "calculator-ios/calculator-ios",
+      "lastRunOn": "05/25/2025 22:42:39 +05:30"
+    }
+  },
+  "lastRunOn": "05/25/2025 22:42:39 +05:30"
+}

@@ -15,18 +15,18 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "calculator-ios",
-            targets: ["calculator-ios"]),
+            name: "CalculatorIOS",
+            targets: ["CalculatorIOS"]),
     ],
     dependencies: [
         // Add dependencies here
     ],
     targets: [
         .target(
-            name: "calculator-ios",
+            name: "CalculatorIOS",
             dependencies: []),
         .testTarget(
-            name: "calculator-iosTests",
-            dependencies: ["calculator-ios"]),
+            name: "CalculatorIOSTests",
+            dependencies: ["CalculatorIOS"]),
     ]
 )
