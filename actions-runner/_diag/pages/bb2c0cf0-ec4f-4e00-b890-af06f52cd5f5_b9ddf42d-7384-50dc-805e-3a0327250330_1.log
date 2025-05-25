@@ -1,0 +1,58 @@
+﻿2025-05-25T17:21:51.8923910Z Current runner version: '2.324.0'
+2025-05-25T17:21:51.8927610Z Runner name: 'self-hosted'
+2025-05-25T17:21:51.8928120Z Machine name: 'Mac'
+2025-05-25T17:21:51.8930150Z ##[group]GITHUB_TOKEN Permissions
+2025-05-25T17:21:51.8931030Z Contents: read
+2025-05-25T17:21:51.8931280Z Metadata: read
+2025-05-25T17:21:51.8931570Z Packages: read
+2025-05-25T17:21:51.8931830Z ##[endgroup]
+2025-05-25T17:21:51.8932830Z Secret source: Actions
+2025-05-25T17:21:51.8933150Z Prepare workflow directory
+2025-05-25T17:21:51.9395310Z Prepare all required actions
+2025-05-25T17:21:51.9420440Z Getting action download info
+2025-05-25T17:21:53.8769540Z Download action repository 'actions/checkout@v4' (SHA:11bd71901bbe5b1630ceea73d27597364c9af683)
+2025-05-25T17:21:56.2877940Z Complete job name: build
+2025-05-25T17:21:56.3232820Z ##[group]Run actions/checkout@v4
+2025-05-25T17:21:56.3233090Z with:
+2025-05-25T17:21:56.3233240Z   repository: pushpendra996/calculator-ios
+2025-05-25T17:21:56.3233500Z   token: ***
+2025-05-25T17:21:56.3233630Z   ssh-strict: true
+2025-05-25T17:21:56.3233770Z   ssh-user: git
+2025-05-25T17:21:56.3233910Z   persist-credentials: true
+2025-05-25T17:21:56.3234050Z   clean: true
+2025-05-25T17:21:56.3234190Z   sparse-checkout-cone-mode: true
+2025-05-25T17:21:56.3234390Z   fetch-depth: 1
+2025-05-25T17:21:56.3234510Z   fetch-tags: false
+2025-05-25T17:21:56.3234660Z   show-progress: true
+2025-05-25T17:21:56.3234810Z   lfs: false
+2025-05-25T17:21:56.3234950Z   submodules: false
+2025-05-25T17:21:56.3235080Z   set-safe-directory: true
+2025-05-25T17:21:56.3235310Z ##[endgroup]
+2025-05-25T17:21:56.5148930Z Syncing repository: pushpendra996/calculator-ios
+2025-05-25T17:21:56.5149770Z ##[group]Getting Git version info
+2025-05-25T17:21:56.5150290Z Working directory is '/Users/pushpendra/Development/Mobile/Practice/calculator-ios/actions-runner/_work/calculator-ios/calculator-ios'
+2025-05-25T17:21:56.5150870Z [command]/usr/bin/git version
+2025-05-25T17:21:56.6514040Z git version 2.39.5 (Apple Git-154)
+2025-05-25T17:21:56.6536740Z ##[endgroup]
+2025-05-25T17:21:56.6542170Z Copying '/Users/pushpendra/.gitconfig' to '/Users/pushpendra/Development/Mobile/Practice/calculator-ios/actions-runner/_work/_temp/f9f4cdb4-454e-4a64-9d25-3adab391cabd/.gitconfig'
+2025-05-25T17:21:56.6550900Z Temporarily overriding HOME='/Users/pushpendra/Development/Mobile/Practice/calculator-ios/actions-runner/_work/_temp/f9f4cdb4-454e-4a64-9d25-3adab391cabd' before making global git config changes
+2025-05-25T17:21:56.6551620Z Adding repository directory to the temporary git global config as a safe directory
+2025-05-25T17:21:56.6554240Z [command]/usr/bin/git config --global --add safe.directory /Users/pushpendra/Development/Mobile/Practice/calculator-ios/actions-runner/_work/calculator-ios/calculator-ios
+2025-05-25T17:21:56.9871410Z [command]/usr/bin/git config --local --get remote.origin.url
+2025-05-25T17:21:57.0402250Z https://github.com/pushpendra996/calculator-ios
+2025-05-25T17:21:57.0419180Z ##[group]Removing previously created refs, to avoid conflicts
+2025-05-25T17:21:57.0421300Z [command]/usr/bin/git rev-parse --symbolic-full-name --verify --quiet HEAD
+2025-05-25T17:21:57.1006080Z refs/heads/main
+2025-05-25T17:21:57.1017620Z [command]/usr/bin/git checkout --detach
+2025-05-25T17:21:57.1728940Z HEAD is now at 3c1aacd Update swift.yml
+2025-05-25T17:21:57.2337970Z [command]/usr/bin/git branch --delete --force main
+2025-05-25T17:21:57.2901930Z Deleted branch main (was 3c1aacd).
+2025-05-25T17:21:57.3465050Z ##[endgroup]
+2025-05-25T17:21:57.3467940Z [command]/usr/bin/git submodule status
+2025-05-25T17:21:57.7280510Z ##[group]Cleaning the repository
+2025-05-25T17:21:57.7283240Z [command]/usr/bin/git clean -ffdx
+2025-05-25T17:21:57.7804450Z Removing calculator-ios.xcodeproj/project.xcworkspace/xcshareddata/
+2025-05-25T17:21:57.7813810Z [command]/usr/bin/git reset --hard HEAD
+2025-05-25T17:21:57.8388770Z HEAD is now at 3c1aacd Update swift.yml
+2025-05-25T17:21:57.8396850Z ##[endgroup]
+2025-05-25T17:21:57.8398220Z ##[group]Disabling automatic garbage c

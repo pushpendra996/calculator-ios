@@ -369,3 +369,49 @@
 [2025-05-25 17:20:17Z ERR  BrokerServer] #####################################################
 [2025-05-25 17:20:17Z ERR  BrokerServer] System.Net.Sockets.SocketException (89): Operation canceled
 [2025-05-25 17:20:17Z WARN BrokerServer] Back off 7.567 seconds before next retry. 4 attempt left.
+[2025-05-25 17:21:17Z INFO ConfigurationStore] HasCredentials()
+[2025-05-25 17:21:17Z INFO ConfigurationStore] stored True
+[2025-05-25 17:21:17Z INFO CredentialManager] GetCredentialProvider
+[2025-05-25 17:21:17Z INFO CredentialManager] Creating type OAuth
+[2025-05-25 17:21:17Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-25 17:21:17Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/pushpendra/Development/Mobile/Practice/calculator-ios/actions-runner/.credentials_rsaparams
+[2025-05-25 17:21:45Z INFO MessageListener] Message '1904658809197802642' received from session '649ea9d7-804f-436f-a8df-d4f5850f995e'.
+[2025-05-25 17:21:45Z INFO ConfigurationStore] HasCredentials()
+[2025-05-25 17:21:45Z INFO ConfigurationStore] stored True
+[2025-05-25 17:21:45Z INFO CredentialManager] GetCredentialProvider
+[2025-05-25 17:21:45Z INFO CredentialManager] Creating type OAuth
+[2025-05-25 17:21:45Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-25 17:21:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/pushpendra/Development/Mobile/Practice/calculator-ios/actions-runner/.credentials_rsaparams
+[2025-05-25 17:21:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/pushpendra/Development/Mobile/Practice/calculator-ios/actions-runner/.credentials_rsaparams
+[2025-05-25 17:21:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/pushpendra/Development/Mobile/Practice/calculator-ios/actions-runner/.credentials_rsaparams
+[2025-05-25 17:21:47Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-25 17:21:50Z INFO JobDispatcher] Job request 0 for plan bb2c0cf0-ec4f-4e00-b890-af06f52cd5f5 job b9ddf42d-7384-50dc-805e-3a0327250330 received.
+[2025-05-25 17:21:50Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-25 17:21:50Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-25 17:21:50Z INFO JobDispatcher] Job request 66cd97ce-0053-53f6-ad0e-6fe9729dfc64 processed succeed.
+[2025-05-25 17:21:50Z INFO Terminal] WRITE LINE: 2025-05-25 17:21:50Z: Running job: build
+[2025-05-25 17:21:50Z INFO JobDispatcher] Start renew job request 0 for job b9ddf42d-7384-50dc-805e-3a0327250330.
+[2025-05-25 17:21:51Z INFO JobDispatcher] Successfully renew job b9ddf42d-7384-50dc-805e-3a0327250330, job is valid till 25/05/2025 5:31:51 PM
+[2025-05-25 17:21:51Z INFO HostContext] Well known directory 'Bin': '/Users/pushpendra/Development/Mobile/Practice/calculator-ios/actions-runner/bin'
+[2025-05-25 17:21:51Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-25 17:21:51Z INFO ProcessInvokerWrapper]   File name: '/Users/pushpendra/Development/Mobile/Practice/calculator-ios/actions-runner/bin/Runner.Worker'
+[2025-05-25 17:21:51Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 157 160'
+[2025-05-25 17:21:51Z INFO ProcessInvokerWrapper]   Working directory: '/Users/pushpendra/Development/Mobile/Practice/calculator-ios/actions-runner/bin'
+[2025-05-25 17:21:51Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-25 17:21:51Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-25 17:21:51Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-25 17:21:51Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-25 17:21:51Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-25 17:21:51Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-25 17:21:51Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-25 17:21:51Z INFO ProcessInvokerWrapper] Process started with process id 21513, waiting for process exit.
+[2025-05-25 17:21:51Z INFO JobDispatcher] Send job request message to worker for job b9ddf42d-7384-50dc-805e-3a0327250330.
+[2025-05-25 17:21:51Z INFO ProcessChannel] Sending message of length 21451, with hash 'eabcd9aa77d7777dfa0594cdc7d3654df341b65d63cd9a56704c118946800e85'
+[2025-05-25 17:21:51Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-25 17:21:51Z INFO JobNotification] Entering StartMonitor
+[2025-05-25 17:21:51Z INFO ConfigurationStore] HasCredentials()
+[2025-05-25 17:21:51Z INFO ConfigurationStore] stored True
+[2025-05-25 17:21:51Z INFO CredentialManager] GetCredentialProvider
+[2025-05-25 17:21:51Z INFO CredentialManager] Creating type OAuth
+[2025-05-25 17:21:51Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-25 17:21:51Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/pushpendra/Development/Mobile/Practice/calculator-ios/actions-runner/.credentials_rsaparams
