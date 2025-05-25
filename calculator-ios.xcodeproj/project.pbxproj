@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 73;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F4DCD3862DE3722300F830E4 /* Exceptions for "calculator-ios" folder in "calculator-ios" target */ = {
+		F4DCD3862DE3722300F830E4 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Package.swift,
@@ -40,7 +40,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		F4DCD3872DE3722300F830E4 /* Exceptions for "calculator-ios" folder in "Copy Bundle Resources" phase from "calculator-ios" target */ = {
+		F4DCD3872DE3722300F830E4 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			buildPhase = F4DCD3182DE202C800F830E4 /* Resources */;
 			membershipExceptions = (
@@ -50,25 +50,9 @@
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F4DCD31C2DE202C800F830E4 /* calculator-ios */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				F4DCD3862DE3722300F830E4 /* Exceptions for "calculator-ios" folder in "calculator-ios" target */,
-				F4DCD3872DE3722300F830E4 /* Exceptions for "calculator-ios" folder in "Copy Bundle Resources" phase from "calculator-ios" target */,
-			);
-			path = "calculator-ios";
-			sourceTree = "<group>";
-		};
-		F4DCD32B2DE202C900F830E4 /* calculator-iosTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "calculator-iosTests";
-			sourceTree = "<group>";
-		};
-		F4DCD3352DE202CA00F830E4 /* calculator-iosUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "calculator-iosUITests";
-			sourceTree = "<group>";
-		};
+		F4DCD31C2DE202C800F830E4 /* calculator-ios */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (F4DCD3862DE3722300F830E4 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, F4DCD3872DE3722300F830E4 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "calculator-ios"; sourceTree = "<group>"; };
+		F4DCD32B2DE202C900F830E4 /* calculator-iosTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "calculator-iosTests"; sourceTree = "<group>"; };
+		F4DCD3352DE202CA00F830E4 /* calculator-iosUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "calculator-iosUITests"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,7 +203,7 @@
 			);
 			mainGroup = F4DCD3112DE202C800F830E4;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 60;
 			productRefGroup = F4DCD31B2DE202C800F830E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -427,7 +411,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
@@ -464,7 +448,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
