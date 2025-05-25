@@ -9,7 +9,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "calculator-ios",
+    name: "CalculatorIOS",
     platforms: [
         .iOS(.v14)
     ],

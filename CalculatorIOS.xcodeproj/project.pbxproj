@@ -51,8 +51,8 @@
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F4DCD31C2DE202C800F830E4 /* CalculatorIOS */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (F4DCD3862DE3722300F830E4 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, F4DCD3872DE3722300F830E4 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = CalculatorIOS; sourceTree = "<group>"; };
-		F4DCD32B2DE202C900F830E4 /* calculator-iosTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "calculator-iosTests"; sourceTree = "<group>"; };
-		F4DCD3352DE202CA00F830E4 /* calculator-iosUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "calculator-iosUITests"; sourceTree = "<group>"; };
+		F4DCD32B2DE202C900F830E4 /* CalculatorIOSTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = CalculatorIOSTests; sourceTree = "<group>"; };
+		F4DCD3352DE202CA00F830E4 /* CalculatorIOSUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = CalculatorIOSUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				F4DCD31C2DE202C800F830E4 /* CalculatorIOS */,
-				F4DCD32B2DE202C900F830E4 /* calculator-iosTests */,
-				F4DCD3352DE202CA00F830E4 /* calculator-iosUITests */,
+				F4DCD32B2DE202C900F830E4 /* CalculatorIOSTests */,
+				F4DCD3352DE202CA00F830E4 /* CalculatorIOSUITests */,
 				F4DCD31B2DE202C800F830E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 				F4DCD32A2DE202C900F830E4 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				F4DCD32B2DE202C900F830E4 /* calculator-iosTests */,
+				F4DCD32B2DE202C900F830E4 /* CalculatorIOSTests */,
 			);
 			name = CalculatorIOSTests;
 			packageProductDependencies = (
@@ -162,7 +162,7 @@
 				F4DCD3342DE202CA00F830E4 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				F4DCD3352DE202CA00F830E4 /* calculator-iosUITests */,
+				F4DCD3352DE202CA00F830E4 /* CalculatorIOSUITests */,
 			);
 			name = CalculatorIOSUITests;
 			packageProductDependencies = (
@@ -396,7 +396,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "calculator-ios/calculator_ios.entitlements";
+				CODE_SIGN_ENTITLEMENTS = CalculatorIOS/CalculatorIOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -433,7 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "calculator-ios/calculator_ios.entitlements";
+				CODE_SIGN_ENTITLEMENTS = CalculatorIOS/CalculatorIOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;

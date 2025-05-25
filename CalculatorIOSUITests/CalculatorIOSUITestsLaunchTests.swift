@@ -1,5 +1,5 @@
 //
-//  calculator_iosUITestsLaunchTests.swift
+//  CalculatorIOSUITestsLaunchTests.swift
 //  calculator-iosUITests
 //
 //  Created by Pushpendra on 24/05/25.
@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class calculator_iosUITestsLaunchTests: XCTestCase {
+final class CalculatorIOSUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

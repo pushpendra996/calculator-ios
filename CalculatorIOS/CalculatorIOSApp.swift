@@ -1,5 +1,5 @@
 //
-//  calculator_iosApp.swift
+//  CalculatorIOSApp.swift
 //  calculator-ios
 //
 //  Created by Pushpendra on 24/05/25.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct calculator_iosApp: App {
+struct CalculatorIOSApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
