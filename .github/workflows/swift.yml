@@ -18,8 +18,8 @@ jobs:
 
     - name: Build iOS App
       run: |
-        xcodebuild -project calculator-ios.xcodeproj \
-                   -scheme calculator-ios \
+        xcodebuild -project CalculatorIOS.xcodeproj \
+                   -scheme CalculatorIOS \
                    -sdk iphonesimulator \
                    -destination 'platform=iOS Simulator,name=iPhone 14,OS=17.0' \
                    clean build
