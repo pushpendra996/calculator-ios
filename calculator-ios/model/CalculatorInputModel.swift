@@ -5,4 +5,5 @@ struct CalculatorInputModel {
     var previousInput: String? = nil
     var operation: String? = nil
     var isResult: Bool = false
+    var expression: String = ""
 } 

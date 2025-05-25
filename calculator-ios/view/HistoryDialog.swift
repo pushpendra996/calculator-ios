@@ -36,7 +36,6 @@ struct HistoryDialog: View {
         }
         .background(Color.black)
         .cornerRadius(20)
-        .padding()
     }
 }
 
