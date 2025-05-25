@@ -29,9 +29,33 @@
 		F4DCD3322DE202CA00F830E4 /* calculator-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "calculator-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F4DCD3862DE3722300F830E4 /* Exceptions for "calculator-ios" folder in "calculator-ios" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Package.swift,
+			);
+			target = F4DCD3192DE202C800F830E4 /* calculator-ios */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		F4DCD3872DE3722300F830E4 /* Exceptions for "calculator-ios" folder in "Copy Bundle Resources" phase from "calculator-ios" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = F4DCD3182DE202C800F830E4 /* Resources */;
+			membershipExceptions = (
+				Package.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F4DCD31C2DE202C800F830E4 /* calculator-ios */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F4DCD3862DE3722300F830E4 /* Exceptions for "calculator-ios" folder in "calculator-ios" target */,
+				F4DCD3872DE3722300F830E4 /* Exceptions for "calculator-ios" folder in "Copy Bundle Resources" phase from "calculator-ios" target */,
+			);
 			path = "calculator-ios";
 			sourceTree = "<group>";
 		};
