@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F4DCD31A2DE202C800F830E4 /* calculator-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calculator-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4DCD3282DE202C900F830E4 /* calculator-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "calculator-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4DCD3322DE202CA00F830E4 /* calculator-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "calculator-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DCD31A2DE202C800F830E4 /* CalculatorIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DCD3282DE202C900F830E4 /* CalculatorIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DCD3322DE202CA00F830E4 /* CalculatorIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -35,7 +35,7 @@
 			membershipExceptions = (
 				Package.swift,
 			);
-			target = F4DCD3192DE202C800F830E4 /* calculator-ios */;
+			target = F4DCD3192DE202C800F830E4 /* CalculatorIOS */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -50,7 +50,7 @@
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F4DCD31C2DE202C800F830E4 /* calculator-ios */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (F4DCD3862DE3722300F830E4 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, F4DCD3872DE3722300F830E4 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "calculator-ios"; sourceTree = "<group>"; };
+		F4DCD31C2DE202C800F830E4 /* CalculatorIOS */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (F4DCD3862DE3722300F830E4 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, F4DCD3872DE3722300F830E4 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = CalculatorIOS; sourceTree = "<group>"; };
 		F4DCD32B2DE202C900F830E4 /* calculator-iosTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "calculator-iosTests"; sourceTree = "<group>"; };
 		F4DCD3352DE202CA00F830E4 /* calculator-iosUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "calculator-iosUITests"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -83,7 +83,7 @@
 		F4DCD3112DE202C800F830E4 = {
 			isa = PBXGroup;
 			children = (
-				F4DCD31C2DE202C800F830E4 /* calculator-ios */,
+				F4DCD31C2DE202C800F830E4 /* CalculatorIOS */,
 				F4DCD32B2DE202C900F830E4 /* calculator-iosTests */,
 				F4DCD3352DE202CA00F830E4 /* calculator-iosUITests */,
 				F4DCD31B2DE202C800F830E4 /* Products */,
@@ -93,9 +93,9 @@
 		F4DCD31B2DE202C800F830E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4DCD31A2DE202C800F830E4 /* calculator-ios.app */,
-				F4DCD3282DE202C900F830E4 /* calculator-iosTests.xctest */,
-				F4DCD3322DE202CA00F830E4 /* calculator-iosUITests.xctest */,
+				F4DCD31A2DE202C800F830E4 /* CalculatorIOS.app */,
+				F4DCD3282DE202C900F830E4 /* CalculatorIOSTests.xctest */,
+				F4DCD3322DE202CA00F830E4 /* CalculatorIOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,9 +103,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4DCD3192DE202C800F830E4 /* calculator-ios */ = {
+		F4DCD3192DE202C800F830E4 /* CalculatorIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4DCD33C2DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "calculator-ios" */;
+			buildConfigurationList = F4DCD33C2DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "CalculatorIOS" */;
 			buildPhases = (
 				F4DCD3162DE202C800F830E4 /* Sources */,
 				F4DCD3172DE202C800F830E4 /* Frameworks */,
@@ -116,18 +116,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F4DCD31C2DE202C800F830E4 /* calculator-ios */,
+				F4DCD31C2DE202C800F830E4 /* CalculatorIOS */,
 			);
-			name = "calculator-ios";
+			name = CalculatorIOS;
 			packageProductDependencies = (
 			);
 			productName = "calculator-ios";
-			productReference = F4DCD31A2DE202C800F830E4 /* calculator-ios.app */;
+			productReference = F4DCD31A2DE202C800F830E4 /* CalculatorIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F4DCD3272DE202C900F830E4 /* calculator-iosTests */ = {
+		F4DCD3272DE202C900F830E4 /* CalculatorIOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4DCD33F2DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "calculator-iosTests" */;
+			buildConfigurationList = F4DCD33F2DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "CalculatorIOSTests" */;
 			buildPhases = (
 				F4DCD3242DE202C900F830E4 /* Sources */,
 				F4DCD3252DE202C900F830E4 /* Frameworks */,
@@ -141,16 +141,16 @@
 			fileSystemSynchronizedGroups = (
 				F4DCD32B2DE202C900F830E4 /* calculator-iosTests */,
 			);
-			name = "calculator-iosTests";
+			name = CalculatorIOSTests;
 			packageProductDependencies = (
 			);
 			productName = "calculator-iosTests";
-			productReference = F4DCD3282DE202C900F830E4 /* calculator-iosTests.xctest */;
+			productReference = F4DCD3282DE202C900F830E4 /* CalculatorIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F4DCD3312DE202CA00F830E4 /* calculator-iosUITests */ = {
+		F4DCD3312DE202CA00F830E4 /* CalculatorIOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4DCD3422DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "calculator-iosUITests" */;
+			buildConfigurationList = F4DCD3422DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "CalculatorIOSUITests" */;
 			buildPhases = (
 				F4DCD32E2DE202CA00F830E4 /* Sources */,
 				F4DCD32F2DE202CA00F830E4 /* Frameworks */,
@@ -164,11 +164,11 @@
 			fileSystemSynchronizedGroups = (
 				F4DCD3352DE202CA00F830E4 /* calculator-iosUITests */,
 			);
-			name = "calculator-iosUITests";
+			name = CalculatorIOSUITests;
 			packageProductDependencies = (
 			);
 			productName = "calculator-iosUITests";
-			productReference = F4DCD3322DE202CA00F830E4 /* calculator-iosUITests.xctest */;
+			productReference = F4DCD3322DE202CA00F830E4 /* CalculatorIOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -194,7 +194,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F4DCD3152DE202C800F830E4 /* Build configuration list for PBXProject "calculator-ios" */;
+			buildConfigurationList = F4DCD3152DE202C800F830E4 /* Build configuration list for PBXProject "CalculatorIOS" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,9 +208,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4DCD3192DE202C800F830E4 /* calculator-ios */,
-				F4DCD3272DE202C900F830E4 /* calculator-iosTests */,
-				F4DCD3312DE202CA00F830E4 /* calculator-iosUITests */,
+				F4DCD3192DE202C800F830E4 /* CalculatorIOS */,
+				F4DCD3272DE202C900F830E4 /* CalculatorIOSTests */,
+				F4DCD3312DE202CA00F830E4 /* CalculatorIOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,12 +266,12 @@
 /* Begin PBXTargetDependency section */
 		F4DCD32A2DE202C900F830E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F4DCD3192DE202C800F830E4 /* calculator-ios */;
+			target = F4DCD3192DE202C800F830E4 /* CalculatorIOS */;
 			targetProxy = F4DCD3292DE202C900F830E4 /* PBXContainerItemProxy */;
 		};
 		F4DCD3342DE202CA00F830E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F4DCD3192DE202C800F830E4 /* calculator-ios */;
+			target = F4DCD3192DE202C800F830E4 /* CalculatorIOS */;
 			targetProxy = F4DCD3332DE202CA00F830E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -482,7 +482,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calculator-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calculator-ios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculatorIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalculatorIOS";
 				XROS_DEPLOYMENT_TARGET = 2.4;
 			};
 			name = Debug;
@@ -504,7 +504,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calculator-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calculator-ios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculatorIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalculatorIOS";
 				XROS_DEPLOYMENT_TARGET = 2.4;
 			};
 			name = Release;
@@ -554,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4DCD3152DE202C800F830E4 /* Build configuration list for PBXProject "calculator-ios" */ = {
+		F4DCD3152DE202C800F830E4 /* Build configuration list for PBXProject "CalculatorIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4DCD33A2DE202CA00F830E4 /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4DCD33C2DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "calculator-ios" */ = {
+		F4DCD33C2DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "CalculatorIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4DCD33D2DE202CA00F830E4 /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4DCD33F2DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "calculator-iosTests" */ = {
+		F4DCD33F2DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "CalculatorIOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4DCD3402DE202CA00F830E4 /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4DCD3422DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "calculator-iosUITests" */ = {
+		F4DCD3422DE202CA00F830E4 /* Build configuration list for PBXNativeTarget "CalculatorIOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4DCD3432DE202CA00F830E4 /* Debug */,
